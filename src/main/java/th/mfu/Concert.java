@@ -17,6 +17,7 @@ public class Concert {
         //TODO: set attributes
         this.title = title;
         this.description = description;
+        
     }
 
     //TODO: add getters and setters
@@ -47,11 +48,11 @@ public class Concert {
     }
     public String getTitle() {
         //TODO: return title
-        return "title";
+        return title;
     }
     public String getDescription() {
         //TODO: return description
-        return "description";
+        return description;
     }
 
 }

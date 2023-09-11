@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Concert List</h1>
-    <a href="/add-concert/">Add concert</a>
+    <a href="/add-concert/">Add concert</a> 
+    <a href="/delete-concert/">Delete all concerts</a>
     <ul>
     <!-- TODO: Add list of concerts -->
     <li th:each="concert : ${concerts}">
@@ -17,7 +18,6 @@
     <span th:text="${concert.performer}"></span>
     <span th:text="${concert.date}"></span>
     <span th:text="${concert.description}"></span>
-    <a href="/delete-concert/">Delete all concerts</a>
   </li>
  </ul>
 </body>
